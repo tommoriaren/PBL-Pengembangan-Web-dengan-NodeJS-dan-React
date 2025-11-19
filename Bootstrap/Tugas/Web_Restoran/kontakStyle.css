@@ -1,0 +1,312 @@
+/* ======================================================= */
+/* 1. GAYA GLOBAL & UTAMA */
+/* ======================================================= */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 18px; 
+}
+
+/* ======================================================= */
+/* CONTAINER KONTEN INTI */
+/* ======================================================= */
+.content-container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+/* ======================================================= */
+/* 2. HEADER */
+/* ======================================================= */
+.header-container-wrapper { 
+    background-color: #fff;
+}
+
+/* ======================================================= */
+/* KONTEN HEADER */
+/* ======================================================= */
+.header-content {
+    text-align: center;
+    padding: 30px 0 25px 0; 
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+/* ======================================================= */
+/* LOGO */
+/* ======================================================= */
+.logo {
+    display: block; 
+    margin: 0 auto 10px auto; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ======================================================= */
+/* NAMA RESTORAN */
+/* ======================================================= */
+.header-content strong {
+    font-size: 2.5em;
+    color: #4CAF50;
+    display: block;
+    margin-top: 0; 
+    margin-bottom: 5px; 
+}
+
+/* ======================================================= */
+/* SLOGAN */
+/* ======================================================= */
+.slogan {
+    font-style: italic;
+    color: #666;
+    display: block;
+    margin-top: 8px; 
+    font-size: 1.2em;
+}
+
+/* ======================================================= */
+/* GARIS PEMISAH HEADER */
+/* ======================================================= */
+.header-hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 auto 25px auto; 
+    width: 60%; 
+    max-width: 400px; 
+}
+
+/* ======================================================= */
+/* 3. NAVIGASI */
+/* ======================================================= */
+.nav-bar-wrapper { 
+    text-align: center;
+    padding: 15px 0;
+    background-color: #5cb85c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ======================================================= */
+/* LINK NAVIGASI */
+/* ======================================================= */
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* ======================================================= */
+/* HOVER LINK NAVIGASI */
+/* ======================================================= */
+.nav-bar a:hover {
+    background-color: #449d44;
+    transform: translateY(-2px);
+}
+
+/* ======================================================= */
+/* GARIS PEMISAH NAVIGASI */
+/* ======================================================= */
+.nav-hr {
+    border: none;
+    background-color: #4CAF50; 
+    height: 2px; 
+    margin: 0;
+}
+
+/* ======================================================= */
+/* 4. JUDUL UTAMA */
+/* ======================================================= */
+h1 {
+    text-align: center;
+    color: #38761d;
+    margin: 40px 0 20px 0;
+    font-size: 2.8em;
+}
+
+/* ======================================================= */
+/* 5. FORMULIR KONTAK */
+/* ======================================================= */
+.form-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ======================================================= */
+/* JUDUL FORMULIR */
+/* ======================================================= */
+.form-container h2 {
+    color: #5cb85c;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+/* ======================================================= */
+/* LABEL FORMULIR */
+/* ======================================================= */
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.1em;
+}
+
+/* ======================================================= */
+/* INPUT TEKS & TEXTAREA */
+/* ======================================================= */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* ======================================================= */
+/* INPUT FOKUS */
+/* ======================================================= */
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+    outline: none;
+}
+
+/* ======================================================= */
+/* TEXTAREA */
+/* ======================================================= */
+.form-container textarea {
+    resize: vertical;
+    height: 200px;
+}
+
+/* ======================================================= */
+/* TOMBOL SUBMIT */
+/* ======================================================= */
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+/* ======================================================= */
+/* HOVER TOMBOL SUBMIT */
+/* ======================================================= */
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: translateY(-1px);
+}
+
+/* ======================================================= */
+/* 6. FOOTER */
+/* ======================================================= */
+.footer-content {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+}
+
+/* ======================================================= */
+/* KONTEN FOOTER */
+/* ======================================================= */
+.footer-content p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* ======================================================= */
+/* LINK FOOTER */
+/* ======================================================= */
+.footer-content a {
+    color: #90ee90;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* ======================================================= */
+/* TEKS COPYRIGHT */
+/* ======================================================= */
+.footer-content small {
+    display: block;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #555;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+/* ======================================================= */
+/* 7. MEDIA QUERY (Responsif) */
+/* ======================================================= */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* ======================================================= */
+    /* LOGO RESPONSIF */
+    /* ======================================================= */
+    .header-content img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* ======================================================= */
+    /* NAMA RESPONSIF */
+    /* ======================================================= */
+    .header-content strong {
+        font-size: 2em;
+    }
+
+    /* ======================================================= */
+    /* FORMULIR RESPONSIF */
+    /* ======================================================= */
+    .form-container {
+        margin: 20px;
+        padding: 20px;
+        max-width: none;
+    }
+
+    /* ======================================================= */
+    /* LINK NAVIGASI RESPONSIF */
+    /* ======================================================= */
+    .nav-bar a {
+        display: block;
+        margin: 5px auto;
+        width: 80%;
+    }
+}
